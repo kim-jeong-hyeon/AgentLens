@@ -50,8 +50,8 @@ The agent decides which modality to use based on the task context — no single 
 ### 1. Clone the repo
 
 ```bash
-git clone <https://github.com/kim-jeong-hyeon/AgentLens.git>
-cd Agentlens
+git clone https://github.com/kim-jeong-hyeon/AgentLens.git
+cd AgentLens
 ```
 
 ### 2. Start the emulator
