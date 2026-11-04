@@ -50,8 +50,8 @@ The agent decides which modality to use based on the task context — no single 
 ### 1. Clone the repo
 
 ```bash
-git clone <repository-url>
-cd agentlens
+git clone <https://github.com/kim-jeong-hyeon/AgentLens.git>
+cd Agentlens
 ```
 
 ### 2. Start the emulator
@@ -230,7 +230,7 @@ Apps like **Uber Eats**, **DoorDash**, and other 3rd-party services are not pre-
 ## Project Structure
 
 ```
-agentlensOpen/
+AgentLens/
 ├── standalone_m3a/              Python AI agent backend
 │   ├── run_agent.py             Entry point
 │   ├── requirements.txt
