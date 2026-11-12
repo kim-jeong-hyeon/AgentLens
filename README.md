@@ -97,6 +97,11 @@ export OPENAI_API_KEY=sk-...
 # or create standalone_m3a/.env with: OPENAI_API_KEY=sk-...
 ```
 
+On Windows (PowerShell):
+```powershell
+$env:OPENAI_API_KEY="sk-..."
+```
+
 ---
 
 ## Running
@@ -212,6 +217,8 @@ Apps like **Uber Eats**, **DoorDash**, and other 3rd-party services are not pre-
 | `--model` | `gpt-5.4` | OpenAI model |
 | `--max_steps` | `20` | Max steps before giving up |
 | `-s` | auto | ADB device serial (if multiple devices connected) |
+| `-d`, `--display_id` | — | Target display ID for input injection (secondary displays) |
+| `--adb_path` | auto-detected | Path to the `adb` binary |
 
 ---
 
